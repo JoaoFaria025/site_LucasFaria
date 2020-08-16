@@ -81,13 +81,13 @@ b.max-bold{ font-weight: 700; }
 /* ---------------------------------
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
-
+.subtitle{color: #FE3C54;}
 .section{ padding: 100px 0 50px; }
 
 .section .heading{ margin-bottom: 60px; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #FFA804; }
+	margin-bottom: 20px; display: block; background: #FE3C54; }
 	
 .margin-t-10{ margin-top: 10px; }
 
@@ -109,7 +109,7 @@ b.max-bold{ font-weight: 700; }
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #FFAD01; color: #fff; }
+header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #FE3C54; color: #fff; }
 
 header .info{ margin-bottom: 10px; }
 
@@ -118,7 +118,7 @@ header .info .icon{ float: left; font-size: 30px; }
 header .info .right-area{ margin-left: 45px; }
 
 header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #FFAD01; color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #FE3C54; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -144,11 +144,11 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
-.intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
-	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #887392; color: #fff; }
+.intro .social-icons > li > a{ line-height: 15px; width:25px; border-radius: 0px; 
+	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #fff; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: #FFA804; 
+	top: 0; z-index: -1; border-radius: 5px; background: #FFA804; 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -165,7 +165,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{  color: #FFA804; }
+.portfolio-section .portfolioFilter a.current{  color: #FE3C54; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
@@ -219,7 +219,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FE3C54; }
 	
 	
 /* ---------------------------------
