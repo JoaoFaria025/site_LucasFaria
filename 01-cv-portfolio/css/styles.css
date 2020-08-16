@@ -154,7 +154,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
 
-
+.social-teams{width:50px; display: inline;}
+#img-teams{
+	width:50px;
+}
+#img-teams-a{
+	margin-left:8px;
+	width:41px;
+}
 /* ---------------------------------
 5. PORFOLIO SECTION
 --------------------------------- */
