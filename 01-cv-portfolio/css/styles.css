@@ -157,10 +157,29 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .social-teams{width:50px; display: inline;}
 #img-teams{
 	width:50px;
+	margin-left:0px;
+	margin-right:6px;
 }
 #img-teams-a{
-	margin-left:8px;
+	margin-left:6px;
+	margin-right:6px;
 	width:41px;
+}
+#img-teams-b{
+	margin-left:6px;
+	margin-right:6px;
+	width:55px;
+}
+#img-teams-c{
+	margin-left:0px;
+	margin-right:6px;
+	width:290px;
+	padding-bottom: 3px;
+}
+#img-teams-d{
+	margin-left:6px;
+	margin-right:6px;
+	width:48px;
 }
 /* ---------------------------------
 5. PORFOLIO SECTION
@@ -265,5 +284,5 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: #28023D; font-size:15px;}
 
