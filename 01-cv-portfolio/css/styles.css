@@ -187,8 +187,9 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 #img-teams-c{
 	margin-left:0px;
 	margin-right:6px;
-	width:290px;
+	width:67px;
 	padding-bottom: 3px;
+	border-radius: 2px;
 }
 #img-teams-d{
 	margin-left:6px;
